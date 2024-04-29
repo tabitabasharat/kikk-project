@@ -1,0 +1,913 @@
+.main-bg-photo {
+  background-image: url("../../assets/kikk_bg_720.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: radial-gradient(70.71% 70.71% at 50% 50%, #EAC0C2 0%, #3B1E8A 100%); */
+  background: linear-gradient(
+    180deg,
+    #3b1e8a 0%,
+    #000000 25%,
+    #1e0f45 45%,
+    #3b1e8a 59%,
+    #1e0f45 68%,
+    #000000 80%
+  );
+  
+}
+.row {
+  --bs-gutter-x: 0px !important;
+  /* --bs-gutter-y: 0; */
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 0px !important;
+  margin-top: calc(-1* var(--bs-gutter-y));
+  /* margin-right: calc(-.5* var(--bs-gutter-x)); */
+  /* margin-left: calc(-.5* var(--bs-gutter-x)); */
+}
+.yellow-crd{
+  position: absolute;
+  top: -15px !important;
+  left: 590px !important;
+}
+.gry-card{
+  position: absolute;
+  top: -15px !important;
+  left: 970px !important;
+}
+.nav-cont{
+    width: 100%;
+}
+.rm {
+  position: relative;
+}
+.waterflow {
+  display: flex;
+  justify-content: flex-start;
+  background-image: url("../../assets/waterflow.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.progress{
+  display: none !important;
+}
+.mainimg {
+  width: 100% !important;
+  padding-bottom: 500px !important;
+}
+.where-to-start {
+  /* //styleName: www.kikk.be/Times New Roman/Italic 101.95 upper; */
+  font-family: Times New Roman;
+  font-size: 101.95px;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -8px;
+  text-align: center;
+  color: rgba(255, 207, 38, 1);
+  width: 813.1px;
+  /* height: 140px; */
+  display: flex;
+  justify-content: center;
+}
+.dot{
+  width: 10px;
+height: 10px;
+/* top: 5.5px; */
+left: 8px;
+gap: 0px;
+border-radius: 999px 999px 999px 999px;
+}
+.kik-font {
+  /* //styleName: www.kikk.be/Helvetica/Bold 30; */
+  font-family: Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.9599999785423279px;
+  text-align: center;
+  padding-top: 70px !important;
+}
+.crd ul {
+  padding-bottom: 44px !important;
+  padding-left: 80px !important;
+}
+.crd li {
+  list-style: none;
+}
+.crd {
+  width: 346px !important;
+  height: 436.75px !important;
+  top: 360px;
+  left: 167px;
+  gap: 0px;
+  border-radius: 12px 12px 12px 12px;
+  border: solid 1px rgba(0, 0, 0, 1);
+}
+.crd:hover {
+  border-width: 2px;
+  border-radius: 5px;
+  transition: border-radius 0.3s;
+  /* border-radius: 12px !important; */
+  border-style: solid;
+  border-image: linear-gradient(
+      135deg,
+      #fcefce 0%,
+      #ba98c8 25%,
+      #9551ff 50%,
+      #411888 75%,
+      #754ad2 100%
+    )
+    1;
+}
+.talks {
+  /* //styleName: www.kikk.be/Times New Roman/Italic 100 upper; */
+  font-family: Times New Roman;
+  font-size: 100px !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+  line-height: 140px;
+  letter-spacing: -8px;
+  text-align: center;
+}
+.learn {
+  /* //styleName: www.kikk.be/Helvetica/Bold 19.53; */
+  font-family: Helvetica;
+  font-size: 19.53px !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.4000000059604645px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: none !important;
+  width: 201.56px;
+  height: 38px;
+  padding: 9px 19.8px 9px 20px;
+  border-radius: 999px 0px 0px 0px;
+  /* display: flex; */
+  justify-content: center;
+}
+.rm .input-group {
+  position: relative;
+  display: flex;
+  /* border: 1px solid #ccc; */
+  width: 100% !important;
+  border-radius: 4px;
+  height: 63px !important;
+padding: 9px 9px 9px 34px;
+border-radius: 999px 999px 999px 999px !important;
+border: 1px solid rgba(217, 217, 217, 0.1) !important;
+
+}
+
+.email-input {
+  flex-grow: 1;
+  /* border: none; */
+  outline: none;
+  padding: 8px 10px;
+
+}
+.rm .input-group {
+  position: relative;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: rgba(62, 60, 141, 0.3);
+  ; /* Ensuring the group's background is transparent */
+}
+
+.email-input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  padding: 8px 10px;
+  background: transparent; /* Transparent background for the input */
+  color: #333; /* Ensuring text is visible on a transparent background */
+}
+.subscribe-button:hover {
+  background-color: #c82333; /* Darker shade on hover */
+}
+
+.subscribe-button {
+  background: rgba(255, 207, 38, 1);
+  color: rgba(62, 60, 141, 1);
+  /* color: white; */
+  border: 2px !important;
+  padding: 8px 16px;
+  border-radius: 999px 999px 999px 999px !important;
+  cursor: pointer;
+  width: 123.16px !important;
+height: 45px !important;
+top: 9px;
+left: 461.84px;
+padding: 12px 22.8px 12px 23px;
+gap: 0px;
+border-radius: 999px 0px 0px 0px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+.subscribe-button:hover {
+  background-color: #0056b3;
+}
+
+.text1 {
+  /* //styleName: www.kikk.be/Helvetica/Bold 17.58; */
+  font-family: Helvetica;
+  font-size: 17.58px !important;
+  font-weight: 700 !important;
+  line-height: 21.6px;
+  letter-spacing: -0.5400000214576721px;
+  text-align: center;
+  padding-bottom: 42px !important;
+}
+.box {
+  width: 280px;
+  /* height: 531.56px; */
+  gap: 0px;
+  opacity: 0px;
+}
+.proto {
+  /* //styleName: www.kikk.be/Helvetica/Bold 27.13 title; */
+  font-family: Helvetica;
+  font-size: 27.13px !important;
+  font-weight: 700 !important;
+  line-height: 28px;
+  letter-spacing: -0.5600000023841858px;
+  text-align: left;
+  margin-top: 300px !important;
+}
+/* .bg-img-purple{
+  background-image: url("../../assets/div.HeroBackground_gradient__OuxEh.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+} */
+.ticket {
+  /* //styleName: www.kikk.be/Helvetica/Bold 16; */
+  font-family: Helvetica;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 19.2px;
+  letter-spacing: -0.3199999928474426px;
+  text-align: left;
+}
+.box-wid{
+  padding-bottom: 33px !important;
+}
+.bgfont {
+  background: rgba(255, 255, 255, 0.1);
+  width: max-content;
+  padding: 1px 6px 1px 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.view-button {
+  margin-top: 59px !important;
+  margin-bottom: 92px !important;
+  margin-left: 20px !important;
+}
+.btm{
+    padding-bottom: 48px !important;
+}
+.waterflow{
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+}
+.main{
+  display: none !important;
+}
+.water{
+    /* background-image: url("../../assets/water.png"); */
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.water1{
+  position: absolute;
+  top: 0px !important;
+  right: 0px !important;;
+  /* left: 400px !important;
+   */
+}
+.get-the-latest{
+    /* //styleName: www.kikk.be/Times New Roman/Regular 56 upper; */
+font-family: Times New Roman;
+font-size: 56px;
+font-weight: 400;
+line-height: 78.4px;
+letter-spacing: -4.480000019073486px;
+text-align: center;
+
+}
+.get-text{
+    padding-bottom: 60px !important;
+}
+.email-box{
+  width: 594px !important;
+height: 63px !important;
+padding: 9px 9px 9px 34px;
+gap: 0px;
+border-radius: 999px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+
+}
+.mailbox{
+    width: 100%  !important;
+height: 63px !important;
+padding: 9px 9px 9px 34px;
+gap: 0px;
+border-radius: 999px 999px 999px 999px !important;
+border: none;
+background: rgba(62, 60, 141, 0.3);
+}
+.subscribe1{
+  display: none !important;
+}
+.talks-text{
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: row !important;
+}
+.subscribe{
+    position: absolute !important;
+    left: 745px !important;
+    width: 123.16px;
+height: 45px;
+top: 9px;
+/* left: 461.84px; */
+padding: 12px 22.8px 12px 23px;
+gap: 0px;
+border-radius: 999px 999px 999px 999px !important;
+border: none !important;
+background: rgba(255, 207, 38, 1) !important;
+color: #3b1e8a !important;
+}
+.text-font{
+  /* //styleName: www.kikk.be/Helvetica/Regular 16; */
+font-family: Helvetica;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.2px;
+letter-spacing: -0.3199999928474426px;
+text-align: left;
+
+}
+.where-to-start-card{
+  display: flex !important;
+  justify-content: center !important;
+  gap: 30px !important;
+}
+@media (min-width:1200px) {
+  .crd {
+    width: 346px !important;
+    height: 436.75px !important;
+    top: 360px;
+    left: 167px;
+    gap: 0px;
+    border-radius: 12px 12px 12px 12px;
+    border: solid 1px rgba(0, 0, 0, 1);
+    flex-direction: row;
+  }
+  .talks-text1{
+    flex-wrap: wrap !important;
+    display: flex;
+    align-items: flex-start !important;
+    justify-content: center !important;
+  }
+  .rm .input-group {
+    position: relative;
+    display: flex;
+    /* border: 1px solid #ccc; */
+    width: 594px  !important;
+    border-radius: 4px;
+    height: 63px !important;
+  padding: 9px 9px 9px 34px;
+  border-radius: 999px 999px 999px 999px !important;
+  border: 1px solid rgba(217, 217, 217, 0.1) !important;
+  
+  }
+}
+ @media (max-width:1200px) {
+  .talks-text1{
+    flex-wrap: wrap !important;
+  }
+
+ }
+@media (max-width:736px) {
+  .talks {
+    /* //styleName: www.kikk.be/Times New Roman/Italic 100 upper; */
+    /* //styleName: www.kikk.be/Times New Roman/Italic 50.31 upper; */
+    font-family: Times New Roman;
+    font-size: 50.31px !important;
+    font-style: italic !important;
+    font-weight: 400 !important;
+    line-height: 69.11px;
+    letter-spacing: -3.9489998817443848px;
+    text-align: center;
+    padding: 0px  !important;
+  }
+  .where-to-start-card{
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+  }
+  .crd {
+    width: 100% !important;
+    /* height: 374.64px !important; */
+    top: 235.13px;
+    left: 22px;    
+    border-radius: 12px 12px 12px 12px;
+    border: solid 1px rgba(0, 0, 0, 1);
+    margin-bottom: 100px !important;
+  }
+  .talks-text{
+    display: flex;
+    justify-content: flex-start !important;
+    
+  }
+  .crd:hover {
+    width: 510px;
+height: 378.64px;
+top: 233.13px;
+left: 20px;
+gap: 0px;
+border-radius: 12px 0px 0px 0px;
+opacity: 0px;
+
+    border-width: 2px;
+    border-radius: 5px;
+    transition: border-radius 0.3s;
+    /* border-radius: 12px !important; */
+    border-style: solid;
+    border-image: linear-gradient(
+        135deg,
+        #fcefce 0%,
+        #ba98c8 25%,
+        #9551ff 50%,
+        #411888 75%,
+        #754ad2 100%
+      )
+      1;
+  }
+  .talks-text1{
+    display: none !important;
+  } 
+  .kik-font {
+    /* //styleName: www.kikk.be/Helvetica/Bold 22.59; */
+    font-family: Helvetica;
+    font-size: 22.59px;
+    font-weight: 700;
+    line-height: 24.08px;
+    letter-spacing: -0.722000002861023px;
+    text-align: center;
+    padding-top: 60px !important;
+  }
+  .crd ul{
+    /* //styleName: www.kikk.be/Helvetica/Light 16; */
+font-family: Helvetica;
+font-size: 16px;
+font-weight: 300;
+line-height: 25.6px;
+text-align: left;
+padding-left: 63px !important;
+
+  }
+  .waterflow{
+background-image: none;
+  }
+  .mainimg{
+    padding-bottom: 310px !important;
+  }
+  .learn{
+    width: 169.5px !important;
+height: 34.03px !important;
+left: 170.25px;
+padding: 8.48px 19.8px 9.51px 20px;
+border-radius: 999px 0px 0px 0px;
+/* //styleName: www.kikk.be/Helvetica/Bold 15.63; */
+font-family: Helvetica;
+font-size: 15.63px !important;
+font-weight: 700 !important;
+line-height: 16.04px;
+letter-spacing: -0.32100000977516174px;
+text-align: center;
+
+  }
+  .btm br{
+    display: none  !important;
+  }
+  .progress{
+    display: block !important;
+  }
+  .text1{
+    /* //styleName: www.kikk.be/Helvetica/Bold 15.63; */
+font-family: Helvetica;
+font-size: 15.63px;
+font-weight: 700;
+line-height: 19.22px;
+letter-spacing: -0.48100000619888306px;
+text-align: center;
+
+  }
+  .talk-box{
+    display: none !important;
+    width: 0% !important;
+  }
+  .text1 br{
+    display: none !important;
+  }
+  .box br{
+    display: none !important;
+  }
+  .progress{
+    height: 2px !important;
+  }
+.nav-view-buttn{
+/* display: none !important; */
+width: 300px;
+height: 56px;
+top: 880.34px;
+left: 51px;
+/* padding: 17.81px 158.78px 18.99px 168.78px; */
+gap: 0px;
+border-radius: 9999px 0px 0px 0px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+
+}
+.navbuttn{
+  width: 300px;
+  height: 56px;
+  top: 880.34px;
+  left: 51px;
+  /* padding: 17.81px 158.78px 18.99px 168.78px; */
+  gap: 0px;
+  border-radius: 9999px 0px 0px 0px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+  margin-left: 0px !important;
+}
+.view-button {
+  margin-top: 20px !important;
+  margin-bottom: 0px !important;
+  margin-left: 0px !important;
+}
+.view{
+  padding-bottom: 100px !important;
+  padding-top: 30px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.water1{
+  display: none !important;
+}
+.get-the-latest{
+  /* //styleName: www.kikk.be/Times New Roman/Regular 30.37 upper; */
+  font-family: Times New Roman;
+  font-size: 30.37px;
+  font-weight: 400;
+  line-height: 42.35px;
+  letter-spacing: -2.4200000762939453px;
+  text-align: center;
+  padding-bottom: 19px !important;
+}
+
+.subscribe-button {
+  background: rgba(255, 207, 38, 1);
+  color: rgba(62, 60, 141, 1);
+  /* color: white; */
+  border: 2px !important;
+  padding: 8px 16px;
+  border-radius: 999px 999px 999px 999px !important;
+  cursor: pointer;
+  width: 123.16px !important;
+height: 45px !important;
+top: 9px;
+left: 461.84px;
+padding: 12px 22.8px 12px 23px;
+gap: 0px;
+border-radius: 999px 0px 0px 0px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+display: none !important;
+}
+
+.subscribe{
+  display: none !important;
+}
+.mainimg{
+  display: none !important;
+}
+.main{
+  display: block !important;
+  width: 100% !important;
+}
+.get-text{
+  /* //styleName: www.kikk.be/Helvetica/Regular 14.2; */
+font-family: Helvetica;
+font-size: 14.2px;
+font-weight: 400;
+line-height: 17.03px;
+letter-spacing: -0.2840000092983246px;
+text-align: center;
+
+}
+.get-the-latest br{
+  display: none;
+}
+.get-text br{
+  display: none;
+}
+.mailbox{
+  width: 100% !important;
+  height: 53.19px !important;
+  padding: 16px 17px 16.19px 33px;
+  gap: 0px;
+  border-radius: 999px 0px 0px 0px;
+  border: 1px;
+  
+}
+.subscribe1{
+  width: 100% !important;
+  height: 53.19px !important;
+  padding: 16px 17px 16.19px 33px;
+  gap: 0px;
+  margin-top: 20px !important;
+  border-radius: 999px 999px 999px 999px !important;
+  border: 1px !important;
+border: none !important;
+background: rgba(255, 207, 38, 1) !important;
+color: #3b1e8a !important;
+display: block !important;
+}
+}
+@media (max-width:487px)  {
+  .waterflow{
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+}
+/* @media (max-width:415px) {
+  .crd{
+     padding-left: 30px !important; 
+     padding-right: 30px !important;
+  }
+  .waterflow{
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+  .crd ul{
+    padding-bottom: 25px !important;
+  }
+} */
+@media (max-width:408px) {
+  .crd ul{
+    padding-bottom: 48px !important;
+    padding-left: 40px !important;
+  }
+}
+@media (max-width:391px) {
+  .crd ul{
+    padding-bottom: 45px !important;
+    padding-left: 40px !important;
+  }
+
+}
+@media (max-width:378px) {
+  .crd ul {
+    padding-bottom: 35px !important;
+    padding-left: 39px !important;
+    padding-top: 0px !important;
+}
+.waterflow{
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
+}
+@media (max-width:385px) {
+  .crd ul{
+    padding-bottom: 71px !important;
+    padding-left: 40px !important;
+    padding-top: 15px !important;
+  }
+  .kik-font{
+    padding-top: 20px !important;
+    padding-left: 20px !important;
+  }
+}
+@media (max-width:360px) {
+  .talks {
+    /* //styleName: www.kikk.be/Times New Roman/Italic 100 upper; */
+    /* //styleName: www.kikk.be/Times New Roman/Italic 50.31 upper; */
+    font-family: Times New Roman;
+    font-size: 50.31px !important;
+    font-style: italic !important;
+    font-weight: 400 !important;
+    line-height: 69.11px;
+    letter-spacing: -3.9489998817443848px;
+    text-align: center;
+    padding: 0px  !important;
+  }
+  .crd {
+    width: 300px !important;
+    /* height: 374.64px !important; */
+    top: 235.13px;
+    left: 22px;    
+    border-radius: 12px 12px 12px 12px;
+    border: solid 1px rgba(0, 0, 0, 1);
+    margin-bottom: 100px !important;
+
+  }
+.waterflow{
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
+  .crd:hover {
+    width: 510px;
+height: 378.64px;
+top: 233.13px;
+left: 20px;
+gap: 0px;
+border-radius: 12px 0px 0px 0px;
+opacity: 0px;
+
+    border-width: 2px;
+    border-radius: 5px;
+    transition: border-radius 0.3s;
+    /* border-radius: 12px !important; */
+    border-style: solid;
+    border-image: linear-gradient(
+        135deg,
+        #fcefce 0%,
+        #ba98c8 25%,
+        #9551ff 50%,
+        #411888 75%,
+        #754ad2 100%
+      )
+      1;
+  } 
+  .kik-font {
+    /* //styleName: www.kikk.be/Helvetica/Bold 22.59; */
+    font-family: Helvetica;
+    font-size: 22.59px;
+    font-weight: 700;
+    line-height: 24.08px;
+    letter-spacing: -0.722000002861023px;
+    text-align: center;
+    
+  }
+  .crd ul{
+    /* //styleName: www.kikk.be/Helvetica/Light 16; */
+font-family: Helvetica;
+font-size: 16px;
+font-weight: 300;
+line-height: 25.6px;
+text-align: left;
+padding-left: 63px !important;
+
+  }
+  .waterflow{
+background-image: none;
+  }
+  .mainimg{
+    padding-bottom: 310px !important;
+  }
+  .learn{
+    width: 169.5px !important;
+height: 34.03px !important;
+left: 170.25px;
+padding: 8.48px 19.8px 9.51px 20px;
+border-radius: 999px 0px 0px 0px;
+/* //styleName: www.kikk.be/Helvetica/Bold 15.63; */
+font-family: Helvetica;
+font-size: 15.63px !important;
+font-weight: 700 !important;
+line-height: 16.04px;
+letter-spacing: -0.32100000977516174px;
+text-align: center;
+
+  }
+  .btm br{
+    display: none  !important;
+  }
+  .progress{
+    display: block !important;
+  }
+  .text1{
+    /* //styleName: www.kikk.be/Helvetica/Bold 15.63; */
+font-family: Helvetica;
+font-size: 15.63px;
+font-weight: 700;
+line-height: 19.22px;
+letter-spacing: -0.48100000619888306px;
+text-align: center;
+
+  }
+  .talk-box{
+    display: none !important;
+    width: 0% !important;
+  }
+  .text1 br{
+    display: none !important;
+  }
+  .box br{
+    display: none !important;
+  }
+  .progress{
+    height: 2px !important;
+  }
+.nav-view-buttn{
+/* display: none !important; */
+width: 300px;
+height: 56px;
+top: 880.34px;
+left: 51px;
+/* padding: 17.81px 158.78px 18.99px 168.78px; */
+gap: 0px;
+border-radius: 9999px 0px 0px 0px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+
+}
+.navbuttn{
+  width: 300px;
+  height: 56px;
+  top: 880.34px;
+  left: 51px;
+  /* padding: 17.81px 158.78px 18.99px 168.78px; */
+  gap: 0px;
+  border-radius: 9999px 0px 0px 0px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+  margin-left: 0px !important;
+}
+.view-button {
+  margin-top: 20px !important;
+  margin-bottom: 0px !important;
+  margin-left: 0px !important;
+}
+.view{
+  padding-bottom: 100px !important;
+  padding-top: 30px !important;
+}
+.water1{
+  display: none !important;
+}
+.get-the-latest{
+  /* //styleName: www.kikk.be/Times New Roman/Regular 30.37 upper; */
+  font-family: Times New Roman;
+  font-size: 30.37px;
+  font-weight: 400;
+  line-height: 42.35px;
+  letter-spacing: -2.4200000762939453px;
+  text-align: center;
+  padding-bottom: 19px !important;
+}
+.subscribe{
+  display: none !important;
+}
+.mainimg{
+  display: none !important;
+}
+.main{
+  display: block !important;
+  width: 100% !important;
+}
+.get-text{
+  /* //styleName: www.kikk.be/Helvetica/Regular 14.2; */
+font-family: Helvetica;
+font-size: 14.2px;
+font-weight: 400;
+line-height: 17.03px;
+letter-spacing: -0.2840000092983246px;
+text-align: center;
+
+}
+.get-the-latest br{
+  display: none;
+}
+.get-text br{
+  display: none;
+}
+.mailbox{
+  width: 300px !important;
+  height: 53.19px !important;
+  padding: 16px 17px 16.19px 33px;
+  gap: 0px;
+  border-radius: 999px 0px 0px 0px;
+  border: 1px;
+  
+}
+.subscribe1{
+  width: 300px !important;
+  height: 53.19px !important;
+  padding: 16px 17px 16.19px 33px;
+  gap: 0px;
+  margin-top: 20px !important;
+  border-radius: 999px 999px 999px 999px !important;
+  border: 1px !important;
+border: none !important;
+background: rgba(255, 207, 38, 1) !important;
+color: #3b1e8a !important;
+}
+}
